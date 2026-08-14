@@ -1,50 +1,115 @@
-# Welcome to your Expo app 👋
+# 🛋️ Furnish — Furniture E-Commerce App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Furnish](assets/readme/furnish-banner.png)
 
-## Get started
+**Furnish** is a modern furniture e-commerce mobile application built with **React Native, Expo and TypeScript**. It provides a smooth shopping experience for browsing furniture, viewing products, managing wishlist and cart items, and placing orders.
 
-1. Install dependencies
+The project is being developed with a **scalable, production-oriented architecture** using reusable components, Redux Toolkit, Expo Router and SQLite.
 
-   ```bash
-   npm install
-   ```
+## ✨ Key Features
 
-2. Start the app
+* 🔐 Demo Mobile + OTP Authentication
+* 🏠 Modern E-Commerce Home Screen
+* 🔎 Product Search
+* 🪑 Furniture Categories
+* 🛍️ Product Listing & Details
+* ❤️ Wishlist
+* 🛒 Shopping Cart
+* ➕ Quantity Management
+* 💰 Price & Discount Calculation
+* 📍 Address Management
+* 📦 Order Management
+* 🌙 Light & Dark Theme
+* 💾 Local SQLite Database
+* 🔄 Redux State Management
+* 📱 Responsive Mobile UI
+* 🧩 Reusable Component Architecture
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+**Frontend**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* React Native
+* Expo
+* TypeScript
+* Expo Router
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**State & Data**
 
-## Get a fresh project
+* Redux Toolkit
+* React Redux
+* Expo SQLite
 
-When you're ready, run:
+**Forms & Validation**
 
-```bash
-npm run reset-project
+* React Hook Form
+* Zod
+
+**UI & UX**
+
+* Reusable Design System
+* Custom Theme
+* React Native Reanimated
+* Expo Image
+
+## 🏗️ Architecture
+
+```text
+Screens
+   ↓
+Reusable Components
+   ↓
+Hooks / State
+   ↓
+Services
+   ↓
+Repositories
+   ↓
+SQLite / API
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+The architecture is designed so the local SQLite data layer can later be replaced or integrated with a production backend without rewriting the UI.
 
-## Learn more
+## 📸 Screenshots
 
-To learn more about developing your project with Expo, look at the following resources:
+### Home
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+![Home](assets/readme/home.png)
 
-## Join the community
+### Product Details
 
-Join our community of developers creating universal apps.
+![Product Details](assets/readme/product-details.png)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Cart
+
+![Cart](assets/readme/cart.png)
+
+## 🚧 Project Status
+
+**Currently in active development.**
+
+Completed / in progress:
+
+* ✅ Project Architecture
+* ✅ Theme System
+* ✅ Redux Foundation
+* 🚧 Authentication
+* 🚧 SQLite Database
+* 🚧 Home
+* 🚧 Products
+* 🚧 Cart
+* ⏳ Checkout
+* ⏳ Orders
+* ⏳ Backend Integration
+
+## 👨‍💻 Developer
+
+**Umashankar Vishwakarma**
+
+Android & React Native Developer
+
+**Core Skills:** React Native • Expo • TypeScript • Java • Android • Firebase • REST APIs • SQLite • MySQL
+
+---
+
+⭐ **Furnish is a portfolio project demonstrating modern React Native development, scalable architecture, reusable components and e-commerce functionality.**
