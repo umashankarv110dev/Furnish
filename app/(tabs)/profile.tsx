@@ -73,11 +73,11 @@ export default function ProfileScreen() {
           </View>
 
           <Text style={styles.name}>
-            Demo User
+            Umashankar Vishwakarma
           </Text>
 
           <Text style={styles.email}>
-            demo@furnish.com
+            usv@furnish.com
           </Text>
 
           <View style={styles.memberBadge}>
@@ -110,7 +110,7 @@ export default function ProfileScreen() {
 
           <View style={styles.statCard}>
             <Text style={styles.statNumber}>
-              8
+              2
             </Text>
 
             <Text style={styles.statTitle}>
@@ -120,7 +120,7 @@ export default function ProfileScreen() {
 
           <View style={styles.statCard}>
             <Text style={styles.statNumber}>
-              2
+              3
             </Text>
 
             <Text style={styles.statTitle}>

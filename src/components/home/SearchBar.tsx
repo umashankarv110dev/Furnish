@@ -4,6 +4,7 @@ export default function SearchBar() {
   return (
     <TextInput
       placeholder="Search Furniture..."
+      placeholderTextColor="#999"
       style={{
         backgroundColor: "#fff",
         borderRadius: 12,

@@ -1,24 +1,29 @@
+import React, { useEffect } from "react";
 import { ActivityIndicator, View } from "react-native";
-import { useEffect } from "react";
 import { router } from "expo-router";
 
 import { getToken } from "../src/services/authStorage";
 
-export default function SplashScreen() {
+export default function Index() {
   useEffect(() => {
     checkLogin();
   }, []);
 
   const checkLogin = async () => {
-    const token = await getToken();
+    try {
+      const token = await getToken();
 
-    setTimeout(() => {
-      if (token) {
-        router.replace("/(tabs)/home");
-      } else {
-        router.replace("/onboarding");
-      }
-    }, 1500);
+      setTimeout(() => {
+        if (token) {
+          router.replace("/(tabs)/home");
+        } else {
+          router.replace("/onboarding");
+        }
+      }, 1500);
+    } catch (error) {
+      console.error("Error checking login:", error);
+      router.replace("/onboarding");
+    }
   };
 
   return (

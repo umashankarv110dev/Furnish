@@ -89,6 +89,7 @@ export default function LoginScreen() {
               <TextInput
                 style={styles.input}
                 placeholder="Enter mobile number"
+                placeholderTextColor="#999"
                 keyboardType="number-pad"
                 maxLength={10}
                 value={value}
