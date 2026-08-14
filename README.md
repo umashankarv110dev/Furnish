@@ -1,6 +1,6 @@
 # 🛋️ Furnish — Furniture E-Commerce App
 
-![Furnish](assets/readme/furnish-banner.png)
+![Furnish](screenshots/image.png)
 
 **Furnish** is a modern furniture e-commerce mobile application built with **React Native, Expo and TypeScript**. It provides a smooth shopping experience for browsing furniture, viewing products, managing wishlist and cart items, and placing orders.
 
@@ -72,17 +72,17 @@ The architecture is designed so the local SQLite data layer can later be replace
 
 ## 📸 Screenshots
 
-### Home
+### Layout 01
 
-![Home](assets/readme/home.png)
+![Layout 01](screenshots/img01.png)
 
-### Product Details
+### Layout 02
 
-![Product Details](assets/readme/product-details.png)
+![Layout 02](screenshots/img02.png)
 
-### Cart
+### Layout 03
 
-![Cart](assets/readme/cart.png)
+![Layout 03](screenshots/img03.png)
 
 ## 🚧 Project Status
 
